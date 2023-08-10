@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>countdown clock</title>
+</head>
+
+<body>
+    <h1>Countdown Clock</h1>
+    <div id="clockdiv">
+        <div>
+
+            <!-- Show No. of days -->
+            <input id="day" type="number" class="days-label" min="0" max="100" value="0">
+            <div class="smalltext">Days</div>
+        </div>
+        <div>
+
+            <!-- Show no.of hours -->
+            <input id="hour" type="number" class="hour-label" min="0" max="100" value="0">
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+
+            <!-- Show no. of minutes -->
+            <input id="min" type="number" class="min-label" min="0" max="100" value="0">
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+
+            <!-- Show seconds -->
+            <input id="sec" type="number" class="sec-label" min="0" max="100" value="0">
+            <div class="smalltext">Seconds</div>
+        </div>
+
+    </div>
+    <div class="box1">
+        <p1>
+            <button id="start"><h3>Start</h3></button>
+            <button id="reset"><h3>Reset</h3></button>
+        </p1>
+    </div>
+
+    <p id="demo"></p>
+    <script src="./format.js"></script>
+
+</body>
+
+</html>
